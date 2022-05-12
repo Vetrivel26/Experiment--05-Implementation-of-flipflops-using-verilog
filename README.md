@@ -121,10 +121,9 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ### PROGRAM 1:
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: EASWAR.J
-RegisterNumber:  212221230024
-
-module sr (q,qbar,s,r,clk);
+Developed by: VETRIVEL.S 
+RegisterNumber:  212221240060
+module sr (q,qbar,s,r,clk);      
 input s,r,clk;
 output q,qbar;
 wire nand1_out;
@@ -149,8 +148,8 @@ endmodule
 ### PROGRAM 2:
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: EASWAR.J
-RegisterNumber:  212221230024
+Developed by: VETRIVEL.S 
+RegisterNumber:  212221240060
 
 module jk(q,qbar,k,j,clk);
 input j,k,clk;
@@ -177,8 +176,8 @@ endmodule
 ### PROGRAM 3:
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: EASWAR.J
-RegisterNumber:  212221230024
+Developed by: VETRIVEL.S 
+RegisterNumber:  212221240060  
 
 module d(q,qbar,d1,clk);
 input d1,clk;
@@ -208,8 +207,8 @@ endmodule
 ### PROGRAM 4:
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: EASWAR.J
-RegisterNumber:  212221230024
+Developed by: VETRIVEL.S 
+RegisterNumber:  212221240060
 
 module tff(t,qbar,q,clk);
 input t,clk;
